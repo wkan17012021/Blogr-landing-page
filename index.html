@@ -37,7 +37,7 @@
     <title>Blogr</title>
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <span class="navbar-brand" href="">Blogr</span>
         <button
@@ -128,12 +128,19 @@
         </div>
         <!-- <img src="./images/bg-pattern-intro-desktop.svg" alt="test" > -->
       </section>
-      <section class="body-content">
-        <h2>Designed for the future</h2>
-        <div class="2-col-layout">
-          <div class="text-col">
-            <h3>Introducing an extensible editor</h3>
-            <p>
+      <section class="body-content-one mt-5">
+        <h2 class="text-center">Designed for the future</h2>
+        <div class="two-col-layout mt-4">
+          <picture class="graph-image">
+            <source
+              media="(min-width: 375px)"
+              srcset="./images/illustration-editor-desktop.svg"
+            >
+            <img src="./images/illustration-editor-mobile.svg" alt="cartoon illustration of graph">
+          </picture>
+          <div class="text-col mt-5">
+            <h3 class="text-center">Introducing an extensible editor</h3>
+            <p class="text-center mt-4">
               Blogr features an exceedingly intuitive interface which lets you
               focus on one thing: creating content. The editor supports
               management of multiple blogs and allows easy manipulation of
@@ -141,23 +148,15 @@
               plugins and themes provide easy ways to add functionality or
               change the looks of a blog.
             </p>
-            <h3>Robust content management</h3>
-            <p>
+            <h3 class="text-center mt-4">Robust content management</h3>
+            <p class="text-center mt-3">
               Flexible content management enables users to easily move through
               posts. Increase the usability of your blog by adding customized
               categories, sections, format, or flow. With this functionality,
               you’re in full control.
             </p>
           </div>
-          <picture>
-            <source
-              media="(min-width: 375px)"
-              srcset="./images/illustration-editor-desktop.svg"
-              
-            >
-            <img src="./images/illustration-editor-mobile.svg" alt="cartoon illustration of graph">
-            
-          </picture>
+
           
         </div>
       </section>

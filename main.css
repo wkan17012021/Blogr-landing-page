@@ -1,8 +1,6 @@
 .navbar {
-    top: 5%;
-    left: 5%;
-    right: auto;
-    width: 90%;
+    padding: 3rem 4rem;
+    background: linear-gradient(to right, hsl(355, 100%, 74%), hsl(356, 100%, 66%));
 }
 
 .navbar-brand {
@@ -78,19 +76,39 @@ main {
     font-size: 1.2rem;
 }
 
-/* .hero-banner img {
-    position: absolute;
-    top: -600px;
-    left: 300px;
-} */
-
 @media screen and (min-width: 375px){
     .hero-banner {
         min-height: 500px;
-        
     }
     .hero-banner h1 {
     font-size: 2.5rem;
 }
 }
 
+/* first body content */
+.body-content-one h2, .body-content-one h3 {
+    color: var(--vy-dk-blue-hdg);
+    font-weight: 600;
+    font-size: 1.25rem;
+}
+
+.text-col {
+    margin: 0 auto;
+    padding: 0 3.2rem;
+}
+
+@media screen and (min-width: 500px){
+    .body-content-one .two-col-layout {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .text-col {
+        width: 50%;
+       
+    }
+    .graph-image {
+        position: relative;
+        left: 100px;
+        width: 50%;
+    }
+}
