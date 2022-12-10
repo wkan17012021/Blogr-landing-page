@@ -6,6 +6,7 @@
 }
 
 .navbar-brand {
+    font-family: 'Ubuntu';
     color: var(--white-txt);
     font-weight: 600;
 }
@@ -14,40 +15,82 @@
     text-decoration: underline !important;
     color: var(--white-txt) !important;
     font-weight: 600 !important;
+    transition: .5s;
 }
 
 .nav-link {
     color: var(--white-txt);
 }
 
-.btn-login, .btn-signup {
+.btn-transparent, .btn-opaque {
     font-weight: bold;
+    
 }
-.btn-login {
+.btn-transparent {
     color: var(--white-txt);
     background-color: unset;
+    border: 1px solid white;
 }
-.btn-signup {
+.btn-transparent:hover {
+    background-color: white;
+    color: var(--lt-red-cta-text);
+    transition: .5s;
+}
+.btn-opaque {
     background-color: white;
     color: var(--lt-red-cta-text);
     font-weight: bold;
 }
+.btn-opaque:hover {
+    color: var(--white-txt);
+    background-color: var(--vy-lt-red-cta-hover-bkgnd);
+    transition: .5s;
+}
 /* hero banner section */
 
+main {
+    position: relative;
+}
+
 .hero-banner {
-    min-height: 50vh;
+    min-height: 400px;
     background: linear-gradient(to right, hsl(355, 100%, 74%), hsl(356, 100%, 66%));
     position: relative;
     overflow: hidden;
+    border-bottom-left-radius: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    padding: 0 1.5rem;
 }
-.hero-banner img {
+
+.hero-banner h1, .hero-banner p {
+    color: var(--white-txt);
+    text-align: center;
+}
+.hero-banner h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+.title p {
+    font-size: 1.2rem;
+}
+
+/* .hero-banner img {
     position: absolute;
     top: -600px;
     left: 300px;
-}
+} */
 
 @media screen and (min-width: 375px){
     .hero-banner {
-        min-height: 25vh;
+        min-height: 500px;
+        
     }
+    .hero-banner h1 {
+    font-size: 2.5rem;
 }
+}
+
