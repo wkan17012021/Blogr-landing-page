@@ -26,6 +26,7 @@
       href="/Blogr-landing-page/index.css"
       type="text/css"
     />
+    <link rel="stylesheet" href="./main.css" class="css">
     <link
       rel="icon"
       type="image/png"
@@ -36,11 +37,13 @@
     <title>Blogr</title>
   </head>
   <body>
-    <nav class="navbar bg-light navbar-expand-lg">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container-fluid">
         <span class="navbar-brand" href="">Blogr</span>
-        <button class="navbar-toggler bg-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+
+            <img src="./images/icon-hamburger.svg" alt="hamburger icon" class="navbar-toggler-icon bg-dark">
+
         </button>
 
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -50,10 +53,11 @@
                 Product
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown" >
-                <li><a class="dropdown-item" href="#">Product A</a></li>
-                <li><a class="dropdown-item" href="#">Product B</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Product C</a></li>
+                <li><a class="dropdown-item" href="#">Overview</a></li>
+                <li><a class="dropdown-item" href="#">Pricing</a></li>
+                <li><a class="dropdown-item" href="#">Marketplace</a></li>
+                <li><a class="dropdown-item" href="#">Features</a></li>
+                <li><a class="dropdown-item" href="#">Integrations</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -61,10 +65,9 @@
                 Company
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">About Us</a></li>
-                <li><a class="dropdown-item" href="#">Location</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">News</a></li>
+                <li><a class="dropdown-item" href="#">Team</a></li>
+                <li><a class="dropdown-item" href="#">Blog</a></li>
+                <li><a class="dropdown-item" href="#">Careers</a></li>
               </ul>
             </li>
             <li class="nav-item dropdown">
@@ -72,25 +75,31 @@
                 Connect
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Facebook</a></li>
-                <li><a class="dropdown-item" href="#">Instagram</a></li>
-                <li><a class="dropdown-item" href="#">Twitter</a></li>
-                <li><a class="dropdown-item" href="#">Leave Us a Message</a></li>
+                <li><a class="dropdown-item" href="#">Newsletter</a></li>
+                <li><a class="dropdown-item" href="#">LinkedIn</a></li>
               </ul>
             </li>
           </ul>
         </div>
                     <form class="d-none d-lg-block">
-              <button class="btn btn-outline-success">Login</button>
-              <button class="btn btn-outline-success">Sign Up</button>
+              <button class="btn-login">Login</button>
+              <button class="btn-signup">Sign Up</button>
             </form>
       </div>
-
     </nav>
+    <main>
+      <div class="hero-banner">
+        <img src="./images/bg-pattern-intro-desktop.svg" alt="test" >
+      </div>
+      <div class="body-content">
 
-    
-    <!-- Product Overview Pricing Marketplace Features Integrations Company About
-    Team Blog Careers Connect Contact Newsletter LinkedIn Login Sign Up A modern
+      </div>
+    </main>
+    <footer>
+
+    </footer>
+    <!--  About
+     A modern
     publishing platform Grow your audience and build your online brand Start for
     Free Learn More Designed for the future Introducing an extensible editor
     Blogr features an exceedingly intuitive interface which lets you focus on

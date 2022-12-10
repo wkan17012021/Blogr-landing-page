@@ -1,0 +1,53 @@
+.navbar {
+    top: 5%;
+    left: 5%;
+    right: auto;
+    width: 90%;
+}
+
+.navbar-brand {
+    color: var(--white-txt);
+    font-weight: 600;
+}
+
+.nav-link:hover, .nav-link:focus {
+    text-decoration: underline !important;
+    color: var(--white-txt) !important;
+    font-weight: 600 !important;
+}
+
+.nav-link {
+    color: var(--white-txt);
+}
+
+.btn-login, .btn-signup {
+    font-weight: bold;
+}
+.btn-login {
+    color: var(--white-txt);
+    background-color: unset;
+}
+.btn-signup {
+    background-color: white;
+    color: var(--lt-red-cta-text);
+    font-weight: bold;
+}
+/* hero banner section */
+
+.hero-banner {
+    min-height: 50vh;
+    background: linear-gradient(to right, hsl(355, 100%, 74%), hsl(356, 100%, 66%));
+    position: relative;
+    overflow: hidden;
+}
+.hero-banner img {
+    position: absolute;
+    top: -600px;
+    left: 300px;
+}
+
+@media screen and (min-width: 375px){
+    .hero-banner {
+        min-height: 25vh;
+    }
+}
