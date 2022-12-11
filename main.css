@@ -186,6 +186,20 @@ main {
   margin: 1.5rem 0;
 }
 
+@media screen and (min-width: 700px) {
+    .body-content-three {
+        display: flex;
+        justify-content: space-between;
+        gap: 10rem;
+    }
+    .body-content-three {
+        margin-right: 6rem;
+    }
+    .body-content-three h2, .body-content-three p {
+        text-align: left;
+    }
+}
+
 /* footer */
 
 footer {
@@ -222,6 +236,11 @@ footer ul > li:first-child {
 
 footer ul > li:last-child {
   margin-bottom: 1.2rem;
+}
+
+footer ul li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 @media screen and (min-width: 700px) {
