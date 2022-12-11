@@ -6,9 +6,6 @@
   - [The challenge](#the-challenge)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -27,12 +24,12 @@ Users should be able to:
 
 I thought this would be a couple of hours so I imported the BS5 library hoping that I could quickly build this out. It was helpful for the dropdown list navigation menu items. But for the rest of the markup and styling, it slowed me down and I ended up rewriting styles, looking up mapped BS classnames etc.
 
-For the other copy sections, it was a case of using normal flow on mobile and flex on desktop. But, it didn't work out so well for the overlay images and media which appears off screen.
+For the other copy sections, it was a case of using normal flow on mobile and flex on desktop. But, it didn't work out so well for the overlay images and media which appears off screen. Maybe I will come back to this in the future but for part of the learning journey, it feels like diminishing returns.
 
 The pain points were:
 
 - Haven't spent time on how SVGs work and not that sure on overlaying content. So, the image in the hero CTA section was not done
-- The images that appear partly off the page I don't know how that is done
+- The images that appear partly off the page, I don't know how that is done
 - 'State of the Art Infrastructure' section with image offset and circles underlay as well as making the section responsive, not sure how that is done
 
 ### Built with
