@@ -4,8 +4,6 @@
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
@@ -14,9 +12,9 @@
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
+
+Requested to do this FEM challenge as part of the apprenticeship program I was doing at the time. The aim was to learn about version control: git commands, opening a feature branch and making commits to it then finally merging into main. It was also to keep practicing html and css.
 
 ### The challenge
 
@@ -25,48 +23,30 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-### Screenshot
-
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
 ## My process
+
+I thought this would be a couple of hours so I imported the BS5 library hoping that I could quickly build this out. It was helpful for the dropdown list navigation menu items. But for the rest of the markup and styling, it slowed me down and I ended up rewriting styles, looking up mapped BS classnames etc.
+
+For the other copy sections, it was a case of using normal flow on mobile and flex on desktop. But, it didn't work out so well for the overlay images and media which appears off screen.
+
+The pain points were:
+
+- Haven't spent time on how SVGs work and not that sure on overlaying content. So, the image in the hero CTA section was not done
+- The images that appear partly off the page I don't know how that is done
+- 'State of the Art Infrastructure' section with image offset and circles underlay as well as making the section responsive, not sure how that is done
 
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+wkan17012021
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
-
+There is a better solution here but I didn't want to lift the code as I don't know how the images work offset from other elements or the svg / circle overlays work:
+https://codepen.io/wearepixeltocode/pen/BarxQPe
