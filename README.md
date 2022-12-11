@@ -1,51 +1,52 @@
-# Blogr landing page
+# Blogr landing page solution
 
-## Welcome! 👋
+## Table of contents
 
-## The challenge
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+- [My process](#my-process)
+  - [Built with](#built-with)
+  - [What I learned](#what-i-learned)
+  - [Continued development](#continued-development)
+  - [Useful resources](#useful-resources)
+- [Author](#author)
+- [Acknowledgments](#acknowledgments)
 
-Your challenge is to build out this landing page and get it looking as close to the design as possible.
+## Overview
 
-Your users should be able to:
+Requested to do this FEM challenge as part of the apprenticeship program I was doing at the time. The aim was to learn about version control: git commands, opening a feature branch and making commits to it then finally merging into main. It was also to keep practicing html and css.
+
+### The challenge
+
+Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
 
-## Where to find everything
+## My process
 
-Your task is to build out the project to the designs inside the `/design` folder. You will find both a mobile and a desktop version of the design. 
+I thought this would be a couple of hours so I imported the BS5 library hoping that I could quickly build this out. It was helpful for the dropdown list navigation menu items. But for the rest of the markup and styling, it slowed me down and I ended up rewriting styles, looking up mapped BS classnames etc.
 
-The designs are in JPG static format. Using JPGs will mean that you'll need to use your best judgment for styles such as `font-size`, `padding` and `margin`.
+For the other copy sections, it was a case of using normal flow on mobile and flex on desktop. But, it didn't work out so well for the overlay images and media which appears off screen.
 
-You will find all the required assets in the `/images` folder. The assets are already optimized.
+The pain points were:
 
-There is also a `style-guide.md` file containing the information you'll need, such as colour palette and fonts.
+- Haven't spent time on how SVGs work and not that sure on overlaying content. So, the image in the hero CTA section was not done
+- The images that appear partly off the page I don't know how that is done
+- 'State of the Art Infrastructure' section with image offset and circles underlay as well as making the section responsive, not sure how that is done
 
-## Building your project
+### Built with
 
-The workflow that you should use can be found below:
+- Semantic HTML5 markup
+- CSS custom properties
+- Flexbox
+- Mobile-first workflow
 
-1. Initialize your project as a public repository on [GitHub](https://github.com/). Creating a repo will make it easier to share your code with your tutor if you need help. If you're not sure how to do this, [have a read-through of this Try Git resource](https://try.github.io/).
-2. Configure your repository to publish your code to a web address. This will also be useful if you need some help during a challenge as you can share the URL for your project with your repo URL. There are a number of ways to do this, here are some recommendations below.
-3. Look through the designs to start planning out how you'll tackle the project. This step is crucial to help you think ahead for CSS classes to create reusable styles.
-4. Before adding any styles, structure your content with HTML. Writing your HTML first can help focus your attention on creating well-structured content.
-5. Write out the base styles for your project, including general content styles, such as `font-family` and `font-size`.
-6. Start adding styles to the top of the page and work down. Only move on to the next section once you're happy you've completed the area you're working on.
+## Author
 
-## Deploying your project
+wkan17012021
 
-As mentioned above, there are many ways to host your project for free. Our recommend hosts are:
+## Acknowledgments
 
-- [GitHub Pages](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
-- [Netlify](https://www.netlify.com/)
-
-## Create a custom `README.md`
-
-We strongly recommend overwriting this `README.md` with a custom one. We've provided a template inside the [`README-template.md`](./README-template.md) file in this starter code.
-
-The template provides a guide for what to add. A custom `README` will help you explain your project and reflect on your learnings. Please feel free to edit this template as much as you like.
-
-Once you've added your information to the template, delete this file and rename the `README-template.md` file to `README.md`. That will make it show up as your repository's README file.
-
-**Have fun building!** 🚀
+There is a better solution here but I didn't want to lift the code as I don't know how the images work offset from other elements or the svg / circle overlays work:
+https://codepen.io/wearepixeltocode/pen/BarxQPe
