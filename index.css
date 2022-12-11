@@ -93,12 +93,12 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
-
-
 img {
   display: block;
   width: 100%;
   height: auto;
 }
 
-
+* {
+  border: 1px solid red;
+}
