@@ -167,6 +167,20 @@ main {
   top: -120px;
 }
 
+@media screen and (min-width: 700px) {
+    .body-content-two-copy-txt {
+        width: 100%;
+    }
+    .phones {
+        max-width: 400px;
+        top: 31%;
+        left: 10%;
+    }
+    .circles {
+        max-width: 600px;
+    }
+}
+
 /* body-content-three */
 
 .body-content-three {
